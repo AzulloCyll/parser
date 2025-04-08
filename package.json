@@ -1,18 +1,20 @@
 {
   "name": "grabber",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Scraper produktów z generowaniem streszczeń i obrazów",
+  "main": "src/scraper.js",
   "scripts": {
+    "start": "node src/scraper.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "axios": "^1.8.4",
-    "cheerio": "^1.0.0",
-    "htmlparser2": "^10.0.0",
-    "puppeteer": "^24.6.0"
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cli-progress": "^3.12.0",
+    "htmlparser2": "^8.0.1",
+    "openai": "^4.92.1"
   }
 }

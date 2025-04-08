@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1200px; /* Ograniczamy szerokość strony */
+  padding: 20px;
+}
+
+.product {
+  display: flex; /* Używamy flexbox do układu poziomego */
+  flex-wrap: wrap; /* Zapewniamy responsywność */
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px; /* Dodajemy odstęp między produktami */
+  overflow: hidden; /* Zapobiegamy "wylewaniu się" zawartości */
+}
+
+.product-link {
+  flex: 0 0 30%; /* Obrazek i tytuł zajmują 30% szerokości */
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.product-link img {
+  max-width: 100%;
+  max-height: 200px; /* Ograniczamy wysokość obrazka */
+  object-fit: cover; /* Dopasowujemy obrazek */
+  margin-bottom: 10px;
+}
+
+.product-description {
+  flex: 0 0 30%; /* Pełny opis zajmuje 30% szerokości */
+  padding-left: 20px; /* Dodajemy odstęp między opisem a obrazkiem */
+}
+
+.product-summary {
+  flex: 0 0 30%; /* Streszczenie zajmuje 30% szerokości */
+  padding-left: 20px; /* Dodajemy odstęp między streszczeniem a opisem */
+  border-left: 1px solid #ddd; /* Dodajemy pionową linię oddzielającą */
+}
+
+.product-summary p {
+  margin: 0 0 10px 0; /* Dodajemy odstępy między akapitami */
+}
+
+.product h3 {
+  font-size: 18px;
+  margin: 0;
+}
+

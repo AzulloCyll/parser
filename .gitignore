@@ -134,3 +134,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Outputs folder for generated files
+outputs/
+
+# Visual Studio Code settings (optional, jeśli nie chcesz śledzić ustawień VSCode)
+.vscode/
+
+# Temporary files
+*.swp
+*.tmp
